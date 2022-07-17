@@ -3,6 +3,6 @@
         "ConfigFile": "TrackmaniaServer/GameData/Config/dedicated_cfg.txt", 
         "AutoMap": true,
         "ConfigType": "xml",
-		            "ConfigFormatRegex": "^[\s]{0,}<(?<key>.+?)>(?<value>.*?)<\/\k<key>>$"
+		            "ConfigFormatRegex": '^[\s]{0,}<(?<key>.+?)>(?<value>.*?)<\/\k<key>>$'
     }
 ]
