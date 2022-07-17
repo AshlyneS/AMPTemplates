@@ -1,0 +1,32 @@
+[
+    {
+      "Protocol": "UDP",
+      "Port": 2350,
+      "Offset": 0,
+      "Range": 1,
+      "Ref": "ApplicationPort1",
+      "Name": "Application Port 1",
+      "Description": "Server Game Port",
+      "ChildPorts": null
+    },
+    {
+      "Protocol": "UDP",
+      "Port": 3450,
+      "Offset": 0,
+      "Range": 1,
+      "Ref": "ApplicationPort2",
+      "Name": "Application Port 2",
+      "Description": "Server P2P Port",
+      "ChildPorts": null
+    },
+    {
+      "Protocol": "TCP",
+      "Port": 5000,
+      "Offset": 0,
+      "Range": 1,
+      "Ref": "RemoteAdminPort",
+      "Name": "Remote Admin Port",
+      "Description": "RPC Connection Port",
+      "ChildPorts": null
+    }
+  ]
