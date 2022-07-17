@@ -3,7 +3,7 @@ App.ApplicationPort1=2350
 App.ApplicationPort2=3450
 App.ApplicationReadyMode=RegexMatch
 App.BaseDirectory=./trackmania-nations-forever/
-App.CommandLineArgs=/dedicated_cfg=dedicated_cfg.txt
+App.CommandLineArgs=/dedicated_cfg=dedicated_cfg.txt {{$FormattedArgs}}
 App.CommandLineParameterDelimiter= 
 App.CommandLineParameterFormat=/{0}="{1}"
 App.DisplayName=TrackMania Nations Forever
