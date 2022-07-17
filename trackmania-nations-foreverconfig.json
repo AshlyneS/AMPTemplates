@@ -1,0 +1,170 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "The name of the server that is displayed to players",
+        "Keywords": "server name",
+        "FieldName": "/servername=",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/servername=",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Password",
+        "Category": "Server Settings",
+        "Description": "Password required to join the server. Leave blank for no password",
+        "Keywords": "password",
+        "FieldName": "/serverpassword=",
+        "InputType": "password",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/serverpassword=",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "LAN",
+        "Category": "Server Network Settings",
+        "Description": "Server will operate on the local network",
+        "Keywords": "lan",
+        "FieldName": "/lan",
+        "InputType": "checkbox",
+        "IsFlagArgument": true,
+        "ParamFieldName": "/lan",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "/internet",
+        "EnumValues": {
+            "/lan": "True",
+            "/internet": "False"
+        }
+    },
+    {
+        "DisplayName": "MOTD",
+        "Category": "Server Settings",
+        "Description": "Server description",
+        "Keywords": "motd",
+        "FieldName": "comment",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "comment",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "Powered by AMP",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Settings",
+        "Description": "Max amount of players allowed in the server",
+        "Keywords": "max players",
+        "FieldName": "max_players",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "max_players",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "32",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Ladder Mode",
+        "Category": "Server Settings",
+        "Description": "",
+        "Keywords": "ladder",
+        "FieldName": "ladder_mode",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ladder_mode",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "1",
+        "EnumValues": {
+            "0": "False",
+            "1": "True"
+        }
+    },
+    {
+        "DisplayName": "Max Spectators",
+        "Category": "Server Settings",
+        "Description": "Max amount of spectators allowed in the server",
+        "Keywords": "spectator",
+        "FieldName": "max_spectators",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "max_spectators",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "32",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Spectator Password",
+        "Category": "Server Settings",
+        "Description": "Password required to become a spectator. Leave blank for no password",
+        "Keywords": "spectator",
+        "FieldName": "password_spectator",
+        "InputType": "password",
+        "IsFlagArgument": false,
+        "ParamFieldName": "password_spectator",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Enable P2P Upload",
+        "Category": "Server Network Settings",
+        "Description": "",
+        "Keywords": "p2p",
+        "FieldName": "enable_p2p_upload",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "enable_p2p_upload",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "True",
+        "EnumValues": {
+            "True": "True",
+            "False": "False"
+        }
+    },
+    {
+        "DisplayName": "Enable P2P Download",
+        "Category": "Server Network Settings",
+        "Description": "",
+        "Keywords": "p2p",
+        "FieldName": "enable_p2p_download",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "enable_p2p_download",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "True",
+        "EnumValues": {
+            "True": "True",
+            "False": "False"
+        }
+    },
+    {
+        "DisplayName": "Account Login",
+        "Category": "Master Server Settings",
+        "Description": "Account used to login to the master server",
+        "Keywords": "master server",
+        "FieldName": "/login=",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/login=",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Account Password",
+        "Category": "Master Server Settings",
+        "Description": "Password used to login to the master server",
+        "Keywords": "password, master",
+        "FieldName": "/password=",
+        "InputType": "password",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/password=",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    }
+]
